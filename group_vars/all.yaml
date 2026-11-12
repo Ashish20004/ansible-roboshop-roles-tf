@@ -3,10 +3,10 @@ ansible_password: DevOps321
 MONGODB_HOST: mongodb-{{ env }}.devzone.fun
 REDIS_HOST: redis-{{ env }}.devzone.fun
 MYSQL_HOST: mysql-{{ env }}.devzone.fun
-RABBITMQ_HOST: rabbitmq-{{ env }}. devzone.fun
-CATALOGUE_HOST: catalogue.backend-alb-{{ env }}. devzone.fun
-USER_HOST: user.backend-alb-{{ env }}. devzone.fun
-CART_HOST: cart.backend-alb-{{ env }}. devzone.fun
-SHIPPING_HOST: shipping.backend-alb-{{ env }}. devzone.fun
-PAYMENT_HOST: payment.backend-alb-{{ env }}. devzone.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.devzone.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devzone.fun
+USER_HOST: user.backend-alb-{{ env }}.devzone.fun
+CART_HOST: cart.backend-alb-{{ env }}.devzone.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.devzone.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.devzone.fun
 app_version: v3
